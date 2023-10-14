@@ -1,4 +1,5 @@
 class Solution:
+    # Brute force with set
     def countDistinct(self, nums: List[int], k: int, p: int) -> int:
         # Using set to check distinct
         s = set()
